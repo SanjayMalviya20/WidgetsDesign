@@ -1,0 +1,73 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+#root,
+body {
+  margin: 0;
+  display: grid;
+  background-color: rgb(0, 0, 0);
+place-items: center;
+box-sizing: border-box;
+height: 100%;
+width: 100%;
+scroll-behavior: smooth;
+}
+
+
+
+
+.App{
+  box-shadow: 0px 0px 10px 3px black;
+  background: linear-gradient(90deg, rgba(9, 25, 52, 0.773) 20%, rgb(2, 18, 45) 80%);
+}
+
+
+.upperbox{
+  box-shadow: 1px 1px 10px 3px rgb(0 0 0);
+  background:rgb(3, 15, 38);
+
+}
+.lowerbox{
+  box-shadow: 1px 1px 10px 3px rgb(0 0 0);
+  background:rgb(3, 15, 38);
+
+}
+
+#btntwo{
+  box-shadow:  7px 6px 15px 5px rgb(3, 2, 2) ; 
+}
+.btn{
+  box-shadow:  0px 3px 15px 5px rgb(3, 2, 2) ; 
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  /* height: 10px; */
+   /* Smaller height */
+}
+.widgets::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+   /* Smaller height
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px; /* Border radius for the track */
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border-radius: 10px; /* Border radius for the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bebaba;
+}
