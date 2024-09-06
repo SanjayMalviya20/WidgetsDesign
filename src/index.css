@@ -72,6 +72,3 @@ scroll-behavior: smooth;
   background: #bebaba;
 }
 
-/* {Gallery&&<button onClick={() => fileRef.current.click()} id='btntwo' className='sm:text-[12px] lg:text-[16px] sm:p-1 sm:flex-1   sm:rounded-full bg-[#0b0b0ba5] font-semibold  hover:scale-110 duration-300 sm:shadow-md  sm:text-white  lg:text-white  sm:hover:shadow-cyan-800 sm:font-sans sm:hover:shadow-2xl  '>+ Add Image </button>} */
-
-/* <button onClick={()=>setGallery((pre)=>!pre)} className='sm:rounded-xl sm:text-white  lg:text-white   sm:bg-black sm:font-semibold  sm:hover:scale-110 sm:duration-300 sm:font-sans sm:p-3 lg:rounded-xl sm:text-[10px] lg:text-[16px]   lg:bg-black lg:font-semibold  lg:hover:scale-110 lg:duration-300 lg:font-sans lg:p-3 '> { Gallery? "Hide Gallery":"Show Gallery"}</button> */
